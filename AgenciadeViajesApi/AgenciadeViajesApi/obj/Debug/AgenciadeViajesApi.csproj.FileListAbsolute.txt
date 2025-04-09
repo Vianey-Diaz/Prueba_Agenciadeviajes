@@ -1,0 +1,204 @@
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.dll.config
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.pdb
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.exe
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.exe.config
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.rsp
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.exe
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.exe.config
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.rsp
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.AppContext.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Console.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.Compression.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Net.Http.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Net.Sockets.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.ValueTuple.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XPath.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.exe
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.exe.config
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.rsp
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\VBCSCompiler.exe
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Antlr3.Runtime.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.SqlServer.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Newtonsoft.Json.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Swashbuckle.Core.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Net.Http.Formatting.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Helpers.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.WebHost.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Mvc.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Optimization.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Razor.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Deployment.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Razor.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\WebActivatorEx.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\WebGrease.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.SqlServer.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Newtonsoft.Json.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Net.Http.Formatting.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Helpers.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.WebHost.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Mvc.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Optimization.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Razor.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Deployment.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Razor.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Antlr3.Runtime.pdb
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Helpers.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Http.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Mvc.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Optimization.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Razor.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.csproj.AssemblyReference.cache
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.csproj.CoreCompileInputs.cache
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\Agenciad.16B41545.Up2Date
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.dll
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.pdb
+C:\Escritorio - copia\AgenciadeViajes\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.dll.config
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\AgenciadeViajesApi.pdb
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.exe
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.exe.config
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csc.rsp
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.exe
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.exe.config
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\csi.rsp
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.AppContext.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Console.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Net.Http.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.exe
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.exe.config
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\vbc.rsp
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Antlr3.Runtime.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Newtonsoft.Json.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Swashbuckle.Core.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Net.Http.Formatting.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Helpers.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.WebHost.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Mvc.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Optimization.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Razor.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\WebActivatorEx.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\WebGrease.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Newtonsoft.Json.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Net.Http.Formatting.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Helpers.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Http.WebHost.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Mvc.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Optimization.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.Razor.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Antlr3.Runtime.pdb
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Helpers.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Http.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Mvc.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Optimization.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.Razor.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\Agenciad.16B41545.Up2Date
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.dll
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.pdb

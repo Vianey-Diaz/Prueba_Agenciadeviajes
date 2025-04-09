@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgenciadeViajesApi</name>
+    </assembly>
+    <members>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.ApiDescription"/>. E.g. "Get-Values-id_name" instead of "GetValues/{id}?name={name}"
+            </summary>
+            <param name="description">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The ID as a string.</returns>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfig">
+            <summary>
+            Use this class to customize the Help Page.
+            For example you can set a custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> to supply the documentation
+            or you can provide the samples for the requests/responses.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.Controllers.HelpController">
+            <summary>
+            The controller that will handle requests for the help page.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetDocumentationProvider(System.Web.Http.HttpConfiguration,System.Web.Http.Description.IDocumentationProvider)">
+            <summary>
+            Sets the documentation provider for help page.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="documentationProvider">The documentation provider.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleObjects(System.Web.Http.HttpConfiguration,System.Collections.Generic.IDictionary{System.Type,System.Object})">
+            <summary>
+            Sets the objects that will be used by the formatters to produce sample requests/responses.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleObjects">The sample objects.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type and action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample request directly for the specified media type and action with parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type of the action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample response directly for the specified media type of the action with specific parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForMediaType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Sets the sample directly for all actions with the specified media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Sets the sample directly for all actions with the specified type and media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The parameter type or return type of an action.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <returns>The help page sample generator.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.SetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration,AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator)">
+            <summary>
+            Sets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleGenerator">The help page sample generator.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.GetModelDescriptionGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the model description generator.
+            </summary>
+            <param name="config">The configuration.</param>
+            <returns>The <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator"/></returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageApiModel(System.Web.Http.HttpConfiguration,System.String)">
+            <summary>
+            Gets the model that represents an API displayed on the help page. The model is initialized on the first call and cached for subsequent calls.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="apiDescriptionId">The <see cref="T:System.Web.Http.Description.ApiDescription"/> ID.</param>
+            <returns>
+            An <see cref="T:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel"/>
+            </returns>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescription">
+            <summary>
+            Describes a type model.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator">
+            <summary>
+            Generates model descriptions for given types.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelNameAttribute">
+            <summary>
+            Use this attribute to change the name of the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescription"/> generated for a type.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel">
+            <summary>
+            The model that represents an API displayed on the help page.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel"/> class.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription">
+            <summary>
+            Gets or sets the <see cref="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription"/> that describes the API.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.UriParameters">
+            <summary>
+            Gets or sets the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ParameterDescription"/> collection that describes the URI parameters for the API.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.RequestDocumentation">
+            <summary>
+            Gets or sets the documentation for the request.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.RequestModelDescription">
+            <summary>
+            Gets or sets the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the request body.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.RequestBodyParameters">
+            <summary>
+            Gets the request body parameter descriptions.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.ResourceDescription">
+            <summary>
+            Gets or sets the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the resource.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.ResourceProperties">
+            <summary>
+            Gets the resource property descriptions.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests">
+            <summary>
+            Gets the sample requests associated with the API.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses">
+            <summary>
+            Gets the sample responses associated with the API.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages">
+            <summary>
+            Gets the error messages associated with this model.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator">
+            <summary>
+            This class will generate the samples for the help page.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator"/> class.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes">
+            <summary>
+            Gets CLR types that are used as the content of <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/>.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples">
+            <summary>
+            Gets the objects that are used directly as samples for certain actions.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects">
+            <summary>
+            Gets the objects that are serialized as samples by the supported formatters.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories">
+            <summary>
+            Gets factories for the objects that the supported formatters will serialize as samples. Processed in order,
+            stopping when the factory successfully returns a non-<see langref="null"/> object.
+            </summary>
+            <remarks>
+            Collection includes just <see cref="M:AgenciadeViajesApi.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)"/> initially. Use
+            <code>SampleObjectFactories.Insert(0, func)</code> to provide an override and
+            <code>SampleObjectFactories.Add(func)</code> to provide a fallback.</remarks>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the request body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the response body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.GetSample(System.Web.Http.Description.ApiDescription,AgenciadeViajesApi.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Gets the request or response body samples.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Type,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,AgenciadeViajesApi.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Search for samples that are provided directly through <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples"/>.
+            </summary>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="type">The CLR type.</param>
+            <param name="formatter">The formatter.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The sample that matches the parameters.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)">
+            <summary>
+            Gets the sample object that will be serialized by the formatters. 
+            First, it will look at the <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects"/>. If no sample object is found, it will try to create
+            one using <see cref="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)"/> (which wraps an <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ObjectGenerator"/>) and other
+            factories in <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>The sample object.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.ResolveHttpRequestMessageType(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Resolves the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The type.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},AgenciadeViajesApi.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection{System.Net.Http.Formatting.MediaTypeFormatter}@)">
+            <summary>
+            Resolves the type of the action parameter or return value when <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/> is used.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or a response.</param>
+            <param name="formatters">The formatters.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Writes the sample object using formatter.
+            </summary>
+            <param name="formatter">The formatter.</param>
+            <param name="value">The value.</param>
+            <param name="type">The type.</param>
+            <param name="mediaType">Type of the media.</param>
+            <returns></returns>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey">
+            <summary>
+            This is used to identify the place where the sample should be applied.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Creates a new <see cref="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey"/> based on media type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Creates a new <see cref="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey"/> based on media type and CLR type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The CLR type.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.#ctor(AgenciadeViajesApi.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey"/> based on <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="sampleDirection">The <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,AgenciadeViajesApi.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey"/> based on media type, <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.ControllerName">
+            <summary>
+            Gets the name of the controller.
+            </summary>
+            <value>
+            The name of the controller.
+            </value>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.ActionName">
+            <summary>
+            Gets the name of the action.
+            </summary>
+            <value>
+            The name of the action.
+            </value>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.MediaType">
+            <summary>
+            Gets the media type.
+            </summary>
+            <value>
+            The media type.
+            </value>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.ParameterNames">
+            <summary>
+            Gets the parameter names.
+            </summary>
+        </member>
+        <member name="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection">
+            <summary>
+            Gets the <see cref="P:AgenciadeViajesApi.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.ImageSample">
+            <summary>
+            This represents an image sample on the help page. There's a display template named ImageSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.ImageSample.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.ImageSample"/> class.
+            </summary>
+            <param name="src">The URL of an image.</param>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.InvalidSample">
+            <summary>
+            This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.ObjectGenerator">
+            <summary>
+            This class will create an object of a given type and populate it with sample data.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)">
+            <summary>
+            Generates an object for a given type. The type needs to be public, have a public default constructor and settable public properties/fields. Currently it supports the following types:
+            Simple types: <see cref="T:System.Int32"/>, <see cref="T:System.String"/>, <see cref="T:System.Enum"/>, <see cref="T:System.DateTime"/>, <see cref="T:System.Uri"/>, etc.
+            Complex types: POCO types.
+            Nullables: <see cref="T:System.Nullable`1"/>.
+            Arrays: arrays of simple types or complex types.
+            Key value pairs: <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            Tuples: <see cref="T:System.Tuple`1"/>, <see cref="T:System.Tuple`2"/>, etc
+            Dictionaries: <see cref="T:System.Collections.Generic.IDictionary`2"/> or anything deriving from <see cref="T:System.Collections.Generic.IDictionary`2"/>.
+            Collections: <see cref="T:System.Collections.Generic.IList`1"/>, <see cref="T:System.Collections.Generic.IEnumerable`1"/>, <see cref="T:System.Collections.Generic.ICollection`1"/>, <see cref="T:System.Collections.IList"/>, <see cref="T:System.Collections.IEnumerable"/>, <see cref="T:System.Collections.ICollection"/> or anything deriving from <see cref="T:System.Collections.Generic.ICollection`1"/> or <see cref="T:System.Collections.IList"/>.
+            Queryables: <see cref="T:System.Linq.IQueryable"/>, <see cref="T:System.Linq.IQueryable`1"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>An object of the given type.</returns>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.SampleDirection">
+            <summary>
+            Indicates whether the sample is used for request or response
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.TextSample">
+            <summary>
+            This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Areas.HelpPage.XmlDocumentationProvider">
+            <summary>
+            A custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> that reads the API documentation from an XML documentation file.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Areas.HelpPage.XmlDocumentationProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:AgenciadeViajesApi.Areas.HelpPage.XmlDocumentationProvider"/> class.
+            </summary>
+            <param name="documentPath">The physical path to XML document.</param>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ActividadesController.Get">
+            <summary>
+            Obtiene la lista completa de actividades
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ActividadesController.Getbuscar(System.Int32)">
+            <summary>
+            Busca una actividad por su ID
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ActividadesController.Post(AgenciadeViajesApi.Models.Actividades)">
+            POST: api/Actividades
+            <summary>
+            Crea una nueva actividad
+            </summary>
+            POST: api/Actividades
+            <summary>
+            Crea una nueva actividad
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ActividadesController.Put(AgenciadeViajesApi.Models.Actividades)">
+            <summary>
+            Actualiza una actividad existente
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ActividadesController.Delete(System.Int32)">
+            <summary>
+            Elimina una actividad por su ID
+            </summary>
+        </member>
+        <member name="T:AgenciadeViajesApi.Controllers.AgentedeViajeController">
+            <summary>
+            Controlador de API para gestionar agentes de viaje.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.AgentedeViajeController.Get">
+            <summary>
+            Obtiene todos los agentes de viaje registrados.
+            </summary>
+            <returns>Lista de agentes de viaje.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.AgentedeViajeController.Get(System.Int32)">
+            <summary>
+            Obtiene un agente de viaje específico por su ID.
+            </summary>
+            <param name="id">ID del agente de viaje.</param>
+            <returns>Agente de viaje encontrado, si existe.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.AgentedeViajeController.Post(AgenciadeViajesApi.Models.AgentedeViaje)">
+            <summary>
+            Crea un nuevo agente de viaje.
+            </summary>
+            <param name="agente">Objeto `AgentedeViaje` con los datos del nuevo agente.</param>
+            <returns>Agente de viaje creado.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.AgentedeViajeController.Put(System.Int32,AgenciadeViajesApi.Models.AgentedeViaje)">
+            <summary>
+            Actualiza los datos de un agente de viaje existente.
+            </summary>
+            <param name="id">ID del agente de viaje a actualizar.</param>
+            <param name="agente">Objeto `AgentedeViaje` con los datos actualizados.</param>
+            <returns>Agente de viaje actualizado.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.AgentedeViajeController.Delete(System.Int32)">
+            <summary>
+            Elimina un agente de viaje específico por su ID.
+            </summary>
+            <param name="id">ID del agente de viaje a eliminar.</param>
+            <returns>Confirmación de eliminación.</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ClienteController.Get">
+            <summary>
+            Obtiene la lista completa de clientes
+            </summary>
+            <returns>Lista de todos los clientes registrados</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ClienteController.GetBuscar(System.Int32)">
+            <summary>
+            Busca un cliente por su ID
+            </summary>
+            <param name="id">ID del cliente a buscar</param>
+            <returns>
+            Cliente encontrado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ClienteController.Post(AgenciadeViajesApi.Models.Cliente)">
+            <summary>
+            Crea un nuevo cliente
+            </summary>
+            <param name="cliente">Datos del cliente a crear</param>
+            <returns>
+            Cliente creado con su ID generado
+            </returns>
+            POST: api/Clientes
+            <summary>
+            Crea un nuevo cliente
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ClienteController.Put(System.Int32,AgenciadeViajesApi.Models.Cliente)">
+            <summary>
+            Actualiza los datos de un cliente existente
+            </summary>
+            <param name="id">ID del cliente a modificar</param>
+            <param name="cliente">Datos actualizados del cliente</param>
+            <returns>
+            Cliente modificado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Elimina un cliente por su ID
+            </summary>
+            <param name="id">ID del cliente a eliminar</param>
+            <returns>
+            Cliente eliminado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.CotizacionesController.Get">
+            <summary>
+            Obtiene la lista de todas las cotizaciones.
+            </summary>
+            <returns>Lista de cotizaciones</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.CotizacionesController.Get(System.Int32)">
+            <summary>
+            Obtiene una cotización por su ID.
+            </summary>
+            <param name="id">ID de la cotización</param>
+            <returns>Cotización correspondiente al ID</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.CotizacionesController.Post(AgenciadeViajesApi.Models.Cotizacion)">
+            <summary>
+            Crea una nueva cotización.
+            </summary>
+            <param name="cotizacion">Datos de la nueva cotización</param>
+            <returns>Resultado de la operación de creación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.CotizacionesController.PutCotizacion(System.Int32,AgenciadeViajesApi.Models.Cotizacion)">
+            <summary>
+            Actualiza una cotización existente.
+            </summary>
+            <param name="id">ID de la cotización a actualizar</param>
+            <param name="cotizacion">Datos de la cotización actualizada</param>
+            <returns>Resultado de la operación de actualización</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.CotizacionesController.Delete(System.Int32)">
+            <summary>
+            Elimina una cotización por su ID.
+            </summary>
+            <param name="id">ID de la cotización a eliminar</param>
+            <returns>Resultado de la operación de eliminación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.DestinoController.Get">
+            <summary>
+            Obtiene todos los destinos registrados
+            </summary>
+            <returns>Lista completa de destinos</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.DestinoController.GetBuscar(System.Int32)">
+            <summary>
+            Busca un destino por su ID
+            </summary>
+            <param name="id">ID del destino</param>
+            <returns>Destino encontrado o NotFound</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.DestinoController.Post(AgenciadeViajesApi.Models.Destino)">
+            <summary>
+            Crea un nuevo destino turístico
+            </summary>
+            <param name="destino">Datos del destino a crear</param>
+            <returns>Destino creado con ID asignado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.DestinoController.Put(System.Int32,AgenciadeViajesApi.Models.Destino)">
+            <summary>
+            Actualiza los datos de un destino existente
+            </summary>
+            <param name="id">ID del destino a modificar</param>
+            <param name="destino">Datos actualizados del destino</param>
+            <returns>Destino modificado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.DestinoController.Delete(System.Int32)">
+            <summary>
+            Elimina un destino por su ID
+            </summary>
+            <param name="id">ID del destino a eliminar</param>
+            <returns>Destino eliminado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.FacturasController.Get">
+            <summary>
+            Obtiene la lista de todas las facturas.
+            </summary>
+            <returns>Lista de facturas</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.FacturasController.Get(System.Int32)">
+            <summary>
+            Obtiene una factura por su ID.
+            </summary>
+            <param name="id">ID de la factura</param>
+            <returns>Factura correspondiente al ID</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.FacturasController.Post(AgenciadeViajesApi.Models.Factura)">
+            <summary>
+            Crea una nueva factura.
+            </summary>
+            <param name="factura">Datos de la nueva factura</param>
+            <returns>Resultado de la operación de creación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.FacturasController.Put(System.Int32,AgenciadeViajesApi.Models.Factura)">
+            <summary>
+            Actualiza una factura existente.
+            </summary>
+            <param name="id">ID de la factura a actualizar</param>
+            <param name="factura">Datos de la factura actualizada</param>
+            <returns>Resultado de la operación de actualización</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.FacturasController.Delete(System.Int32)">
+            <summary>
+            Elimina una factura por su ID.
+            </summary>
+            <param name="id">ID de la factura a eliminar</param>
+            <returns>Resultado de la operación de eliminación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.GuiaTuristicoController.Get">
+            <summary>
+            Obtiene todos los guías turísticos.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.GuiaTuristicoController.Get(System.Int32)">
+            <summary>
+            Obtiene un guía turístico por ID.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.GuiaTuristicoController.Post(AgenciadeViajesApi.Models.GuiaTuristico)">
+            <summary>
+            Crea un nuevo guía turístico.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.GuiaTuristicoController.Put(System.Int32,AgenciadeViajesApi.Models.GuiaTuristico)">
+            <summary>
+            Actualiza un guía turístico existente.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.GuiaTuristicoController.Delete(System.Int32)">
+            <summary>
+            Elimina un guía turístico por ID.
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.HotelController.Get">
+            <summary>
+            Obtiene todos los hoteles registrados
+            </summary>
+            <returns>Lista de todos los hoteles</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.HotelController.GetBuscar(System.Int32)">
+            <summary>
+            Busca un hotel por su ID
+            </summary>
+            <returns>lista de hotel por id</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.HotelController.Post(AgenciadeViajesApi.Models.Hotel)">
+            <summary>
+            Crea un nuevo hotel
+            </summary>
+            <returns>Agrega un hotel</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.HotelController.Put(System.Int32,AgenciadeViajesApi.Models.Hotel)">
+            <summary>
+            Actualiza un hotel existente
+            </summary>
+            <returns>Actualizacion de hoteles</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.HotelController.Delete(System.Int32)">
+            <summary>
+            Elimina un hotel por su ID
+            </summary>
+            <returns>Elimina Hoteles</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Get(System.Boolean)">
+            <summary>
+            Obtiene todos los métodos de pago registrados
+            </summary>
+            <param name="incluirInactivos">Indica si se deben incluir métodos inactivos (valor predeterminado: false)</param>
+            <returns>Lista de métodos de pago</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.GetById(System.Int32)">
+            <summary>
+            Obtiene un método de pago por su ID
+            </summary>
+            <param name="id">ID del método de pago</param>
+            <returns>Método de pago correspondiente al ID</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Post(AgenciadeViajesApi.Models.Metodo_Pago)">
+            <summary>
+            Crea un nuevo método de pago
+            </summary>
+            <param name="metodo">Datos del método de pago a crear</param>
+            <returns>Método de pago creado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Put(System.Int32,AgenciadeViajesApi.Models.Metodo_Pago)">
+            <summary>
+            Actualiza un método de pago existente
+            </summary>
+            <param name="id">ID del método de pago a actualizar</param>
+            <param name="metodo">Datos actualizados del método de pago</param>
+            <returns>Método de pago actualizado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Delete(System.Int32)">
+            <summary>
+            Elimina lógicamente un método de pago (lo marca como inactivo)
+            </summary>
+            <param name="id">ID del método de pago</param>
+            <returns>Método de pago deshabilitado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Habilitar(System.Int32)">
+            <summary>
+            Habilita un método de pago
+            </summary>
+            <param name="id">ID del método de pago</param>
+            <returns>Método de pago habilitado</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.EstaActivo(System.Int32)">
+            <summary>
+            Verifica si un método de pago está activo
+            </summary>
+            <param name="id">ID del método de pago</param>
+            <returns>Estado de actividad del método de pago</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.BuscarPorNombre(System.String)">
+            <summary>
+            Busca métodos de pago por coincidencia parcial en el nombre
+            </summary>
+            <param name="nombre">Fragmento del nombre a buscar</param>
+            <returns>Lista de métodos de pago que coinciden con el criterio</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.ExisteMetodo(System.String)">
+            <summary>
+            Verifica si existe un método de pago con el nombre especificado
+            </summary>
+            <param name="nombre">Nombre exacto a verificar</param>
+            <returns>
+            True si existe un método con ese nombre, False en caso contrario
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.PaquetesTuristicosController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.PaquetesTuristicosController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.PaquetesTuristicosController.PutPaqueteTuristico(System.Int32,AgenciadeViajesApi.Models.Paquete_Turistico)">
+            <summary>
+            actualiza datos
+            </summary>
+            <param name="id"></param>
+            <param name="paquete"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.PaquetesTuristicosController.BuscarPorDestinoYPrecio(System.Int32,System.Double)">
+            <summary>
+            Busca paquetes turísticos por destino y precio máximo.
+            </summary>
+            <param name="destinoId">ID del destino</param>
+            <param name="precioMaximo">Precio máximo</param>
+            <returns>Lista de paquetes turísticos que cumplen con los criterios</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.PaquetesTuristicosController.BuscarPorNombreYPrecio(System.String,System.Double)">
+            <summary>
+            Busca paquetes turísticos por nombre y precio mínimo.
+            </summary>
+            <param name="nombre">Nombre del paquete turístico</param>
+            <param name="precioMinimo">Precio mínimo</param>
+            <returns>Lista de paquetes turísticos que cumplen con los criterios</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ReservacionesController.Get">
+            <summary>
+            Obtiene la lista de todas las reservaciones.
+            </summary>
+            <returns>Lista de reservaciones</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ReservacionesController.Get(System.Int32)">
+            <summary>
+            Obtiene una reservación por su ID.
+            </summary>
+            <param name="id">ID de la reservación</param>
+            <returns>Reservación correspondiente al ID</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ReservacionesController.Post(AgenciadeViajesApi.Models.Reservacion)">
+            <summary>
+            Crea una nueva reservación.
+            </summary>
+            <param name="reservacion">Datos de la nueva reservación</param>
+            <returns>Resultado de la operación de creación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ReservacionesController.Put(System.Int32,AgenciadeViajesApi.Models.Reservacion)">
+            <summary>
+            Actualiza una reservación existente.
+            </summary>
+            <param name="id">ID de la reservación a actualizar</param>
+            <param name="reservacion">Datos de la reservación actualizada</param>
+            <returns>Resultado de la operación de actualización</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.ReservacionesController.Delete(System.Int32)">
+            <summary>
+            Elimina una reservación por su ID.
+            </summary>
+            <param name="id">ID de la reservación a eliminar</param>
+            <returns>Resultado de la operación de eliminación</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.SeguroController.Get">
+            <summary>
+            Obtiene todos los seguros registrados
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.SeguroController.GetBuscar(System.Int32)">
+            <summary>
+            Busca un seguro por su ID
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.SeguroController.Post(AgenciadeViajesApi.Models.Seguro)">
+            <summary>
+            Crea un nuevo seguro
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.SeguroController.Put(System.Int32,AgenciadeViajesApi.Models.Seguro)">
+            <summary>
+            Actualiza un seguro existente
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.SeguroController.Delete(System.Int32)">
+            <summary>
+            Elimina un seguro por su ID
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.TipoHabitacionController.Get">
+            <summary>
+            Obtiene la lista completa de tipos de habitación
+            </summary>
+            <returns>Lista de todos los tipos de habitación registrados</returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.TipoHabitacionController.GetBuscar(System.Int32)">
+            <summary>
+            Busca un tipo de habitación por su ID
+            </summary>
+            <param name="id">ID del tipo de habitación a buscar</param>
+            <returns>
+            Tipo de habitación encontrado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.TipoHabitacionController.Post(AgenciadeViajesApi.Models.TipoHabitacion)">
+            <summary>
+            Crea un nuevo tipo de habitación
+            </summary>
+            <param name="tipoHabitacion">Datos del tipo de habitación a crear</param>
+            <returns>
+            Tipo de habitación creado con su ID generado
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.TipoHabitacionController.Put(System.Int32,AgenciadeViajesApi.Models.TipoHabitacion)">
+            <summary>
+            Actualiza los datos de un tipo de habitación existente
+            </summary>
+            <param name="id">ID del tipo de habitación a modificar</param>
+            <param name="tipoHabitacion">Datos actualizados del tipo de habitación</param>
+            <returns>
+            Tipo de habitación modificado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.TipoHabitacionController.Delete(System.Int32)">
+            <summary>
+            Elimina un tipo de habitación por su ID
+            </summary>
+            <param name="id">ID del tipo de habitación a eliminar</param>
+            <returns>
+            Tipo de habitación eliminado o NotFound si no existe
+            </returns>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.Get">
+            <summary>
+            Obtiene todos los transportes registrados
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.GetBuscar(System.Int32)">
+            <summary>
+            Busca transporte por ID
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.Post(AgenciadeViajesApi.Models.Vuelo)">
+            <summary>
+            Crea nuevo transporte
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.Put(System.Int32,AgenciadeViajesApi.Models.Vuelo)">
+            <summary>
+            Actualiza transporte existente
+            </summary>
+        </member>
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.Delete(System.Int32)">
+            <summary>
+            Elimina transporte por ID
+            </summary>
+        </member>
+    </members>
+</doc>
