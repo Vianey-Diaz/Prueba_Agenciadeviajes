@@ -742,21 +742,25 @@
         </member>
         <member name="M:AgenciadeViajesApi.Controllers.HotelController.Post(AgenciadeViajesApi.Models.Hotel)">
             <summary>
-            Crea un nuevo hotel
+            Crea un nuevo hotel.
             </summary>
-            <returns>Agrega un hotel</returns>
+            <param name="hotel">Datos del hotel a crear</param>
+            <returns>Resultado de la operación de creación</returns>
         </member>
         <member name="M:AgenciadeViajesApi.Controllers.HotelController.Put(System.Int32,AgenciadeViajesApi.Models.Hotel)">
             <summary>
-            Actualiza un hotel existente
+            Actualiza un hotel existente.
             </summary>
-            <returns>Actualizacion de hoteles</returns>
+            <param name="id">ID del hotel a actualizar</param>
+            <param name="hotel">Datos actualizados del hotel</param>
+            <returns>Resultado de la operación de actualización</returns>
         </member>
         <member name="M:AgenciadeViajesApi.Controllers.HotelController.Delete(System.Int32)">
             <summary>
-            Elimina un hotel por su ID
+            Elimina un hotel por su ID.
             </summary>
-            <returns>Elimina Hoteles</returns>
+            <param name="id">ID del hotel a eliminar</param>
+            <returns>Resultado de la operación de eliminación</returns>
         </member>
         <member name="M:AgenciadeViajesApi.Controllers.Metodo_PagoController.Get(System.Boolean)">
             <summary>
@@ -964,12 +968,12 @@
             Tipo de habitación eliminado o NotFound si no existe
             </returns>
         </member>
-        <member name="M:AgenciadeViajesApi.Controllers.VueloController.Get">
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.GetVuelos">
             <summary>
             Obtiene todos los transportes registrados
             </summary>
         </member>
-        <member name="M:AgenciadeViajesApi.Controllers.VueloController.GetBuscar(System.Int32)">
+        <member name="M:AgenciadeViajesApi.Controllers.VueloController.GetVuelo(System.Int32)">
             <summary>
             Busca transporte por ID
             </summary>

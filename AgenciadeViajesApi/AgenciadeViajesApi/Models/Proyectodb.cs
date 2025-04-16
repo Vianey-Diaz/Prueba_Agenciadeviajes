@@ -28,6 +28,27 @@ namespace AgenciadeViajesApi.Models
         public DbSet<Cotizacion> Cotizaciones { get; set; }
         public DbSet<TipoHabitacion> TiposdeHabitacion {  get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Relación entre Vuelo y Destino (Origen)
+            modelBuilder.Entity<Vuelo>()
+                .HasRequired(v => v.Origen)
+                .WithMany() // Relación de uno a muchos (suponiendo que Destino puede tener múltiples vuelos como origen)
+                .HasForeignKey(v => v.OrigenId)
+                .WillCascadeOnDelete(false); // Desactivar Cascade Delete
+
+            // Relación entre Vuelo y Destino (Destino)
+            modelBuilder.Entity<Vuelo>()
+                .HasRequired(v => v.Destino)
+                .WithMany() // Relación de uno a muchos (suponiendo que Destino puede tener múltiples vuelos)
+                .HasForeignKey(v => v.DestinoId)
+                .WillCascadeOnDelete(false); // Desactivar Cascade Delete
+        }
+
+
+
 
     }
 }

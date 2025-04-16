@@ -202,3 +202,5 @@ C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeV
 C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\Agenciad.16B41545.Up2Date
 C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.dll
 C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.pdb
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.Migrations.FixCascadeDelete.resources
+C:\Users\pc\Documents\ProgramacionOrientadaObjetos\AgenciadeViajesApi\AgenciadeViajesApi\AgenciadeViajesApi\obj\Debug\AgenciadeViajesApi.csproj.GenerateResource.cache

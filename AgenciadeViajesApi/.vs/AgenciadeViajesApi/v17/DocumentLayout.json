@@ -3,16 +3,71 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|c:\\users\\pc\\documents\\programacionorientadaobjetos\\agenciadeviajesapi\\agenciadeviajesapi\\agenciadeviajesapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\paqueteturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\paqueteturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\destinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\destinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|c:\\users\\pc\\documents\\programacionorientadaobjetos\\agenciadeviajesapi\\agenciadeviajesapi\\agenciadeviajesapi\\migrations\\202504151633557_fixcascadedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\migrations\\202504151633557_fixcascadedelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\proyectodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\proyectodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|c:\\users\\pc\\documents\\programacionorientadaobjetos\\agenciadeviajesapi\\agenciadeviajesapi\\agenciadeviajesapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AgenciadeViajesApi||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\tipohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\tipohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\cotizacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\cotizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\paqueteturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\paqueteturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,27 +86,12 @@
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AgenciadeViajesApi||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\destino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\paquete_turistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\paquete_turistico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\metodo_pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,22 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\tipohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\tipohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,28 +134,12 @@
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\models\\proyectodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\models\\proyectodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\vuelocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\guiaturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\guiaturisticocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\destinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\destinocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\agentedeviajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -140,10 +148,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\actividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\actividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|solutionrelative:agenciadeviajesapi\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E6EBA-860D-4858-AE98-31378FD8B134}|AgenciadeViajesApi\\AgenciadeViajesApi.csproj|C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\agenciadeviajesapi\\controllers\\metodo_pagocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,136 +161,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:13:00.602Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:28:05.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CotizacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAL0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:24:01.969Z",
+              "WhenOpened": "2025-04-04T02:16:21.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cotizacion.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cotizacion.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Cotizacion.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cotizacion.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Cotizacion.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADgAAAADAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VueloController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\VueloController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\VueloController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\VueloController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\VueloController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:00.114Z"
+              "WhenOpened": "2025-04-04T02:18:54.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaqueteTuristicoController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:17:47.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:15:03.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Empleado.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Empleado.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:10.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cliente.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:10:54.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Paquete_Turistico.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:37.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Destino.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Destino.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Destino.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Destino.cs",
               "RelativeToolTip": "AgenciadeViajesApi\\Models\\Destino.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAUwGkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:10:15.745Z"
+              "WhenOpened": "2025-04-04T01:10:15.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "DestinoController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\DestinoController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\DestinoController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\DestinoController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\DestinoController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:15:33.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeguroController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\SeguroController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\SeguroController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\SeguroController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\SeguroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:18:23.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vuelo.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Vuelo.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Vuelo.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Vuelo.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Vuelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:12:29.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AgenciadeViajesApi",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi.csproj",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\AgenciadeViajesApi.csproj",
@@ -297,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Web.config",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Web.config",
@@ -311,18 +284,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Seguro.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Seguro.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Seguro.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Seguro.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Seguro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:12:15.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202504151633557_FixCascadeDelete.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Migrations\\202504151633557_FixCascadeDelete.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Migrations\\202504151633557_FixCascadeDelete.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Migrations\\202504151633557_FixCascadeDelete.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Migrations\\202504151633557_FixCascadeDelete.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T16:34:48.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proyectodb.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Proyectodb.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Proyectodb.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Proyectodb.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Proyectodb.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:57.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Metodo_Pago.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Metodo_Pago.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Metodo_Pago.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Metodo_Pago.cs",
               "RelativeToolTip": "AgenciadeViajesApi\\Models\\Metodo_Pago.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T01:09:30.892Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Hotel.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Hotel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:28.093Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "TipoHabitacion.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:12:20.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CotizacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\CotizacionesController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAL0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:24:01.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaqueteTuristicoController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\PaqueteTuristicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:17:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cotizacion.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cotizacion.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Cotizacion.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cotizacion.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Cotizacion.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:00.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReservacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\ReservacionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:28:05.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:13:00.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:15:03.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Empleado.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Empleado.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:10.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Cliente.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:10:54.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Paquete_Turistico.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
+              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
+              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Paquete_Turistico.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:11:37.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Factura.cs",
@@ -334,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Reservacion.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Reservacion.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Reservacion.cs",
@@ -346,55 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Seguro.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Seguro.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Seguro.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Seguro.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Seguro.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:12:15.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Hotel.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Hotel.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Hotel.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:28.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TipoHabitacion.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\TipoHabitacion.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:12:20.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Vuelo.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Vuelo.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Vuelo.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Vuelo.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Vuelo.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:12:29.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Actividades.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Actividades.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Actividades.cs",
@@ -406,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "GuiaTuristico.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\GuiaTuristico.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\GuiaTuristico.cs",
@@ -418,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "AgentedeViaje.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\AgentedeViaje.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\AgentedeViaje.cs",
@@ -430,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Persona.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Persona.cs",
@@ -442,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Migrations\\Configuration.cs",
@@ -454,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "TipoHabitacionController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\TipoHabitacionController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\TipoHabitacionController.cs",
@@ -466,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "FacturasController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\FacturasController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\FacturasController.cs",
@@ -478,19 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Proyectodb.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Proyectodb.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Models\\Proyectodb.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Models\\Proyectodb.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Models\\Proyectodb.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA/wAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:11:57.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\App_Start\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\App_Start\\SwaggerConfig.cs",
@@ -502,19 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "VueloController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\VueloController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\VueloController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\VueloController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\VueloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:18:54.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ValuesController.cs",
@@ -526,19 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SeguroController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\SeguroController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\SeguroController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\SeguroController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\SeguroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:18:23.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "GuiaTuristicoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\GuiaTuristicoController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\GuiaTuristicoController.cs",
@@ -550,19 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DestinoController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\DestinoController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\DestinoController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\DestinoController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\DestinoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:15:33.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "AgentedeViajeController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\AgentedeViajeController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\AgentedeViajeController.cs",
@@ -574,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "ActividadesController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\ActividadesController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\ActividadesController.cs",
@@ -586,19 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "AgenciadeViajesApi\\Controllers\\HotelController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T02:16:21.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Metodo_PagoController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\ProgramacionOrientadaObjetos\\AgenciadeViajesApi\\AgenciadeViajesApi\\AgenciadeViajesApi\\Controllers\\Metodo_PagoController.cs",
               "RelativeDocumentMoniker": "AgenciadeViajesApi\\Controllers\\Metodo_PagoController.cs",
